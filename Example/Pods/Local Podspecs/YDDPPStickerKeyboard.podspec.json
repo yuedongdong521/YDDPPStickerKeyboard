@@ -1,0 +1,27 @@
+{
+  "name": "YDDPPStickerKeyboard",
+  "version": "0.1.0",
+  "summary": "A short description of YDDPPStickerKeyboard.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yuedongdong521/YDDPPStickerKeyboard",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yuedongdong521": "1067221279@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yuedongdong521/YDDPPStickerKeyboard.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YDDPPStickerKeyboard/Classes/**/*",
+  "resource_bundles": {
+    "YDDPPStickerKeyboard": [
+      "YDDPPStickerKeyboard/Assets/*"
+    ]
+  }
+}

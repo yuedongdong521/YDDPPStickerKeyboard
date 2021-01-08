@@ -1,0 +1,16 @@
+PODS:
+  - YDDPPStickerKeyboard (0.1.0)
+
+DEPENDENCIES:
+  - YDDPPStickerKeyboard (from `../`)
+
+EXTERNAL SOURCES:
+  YDDPPStickerKeyboard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YDDPPStickerKeyboard: 65f32bf8be37bb397f7c70f2400c499d8446640d
+
+PODFILE CHECKSUM: 8bab2bbc5b75d69c67e884c07fc89f61c11bbe72
+
+COCOAPODS: 1.10.0

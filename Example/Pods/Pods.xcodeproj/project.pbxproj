@@ -1,0 +1,1099 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D5218E1A9FF9C69457C128526B1B2F /* NSString+PPAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7145BE64BAC769EC71631C70F3F652 /* NSString+PPAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CA6509A502E9297D389E1C39217CC12 /* toggle_emoji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58ABF6B3DE66BB6833C95E32A5E084CF /* toggle_emoji@2x.png */; };
+		0F44561D9E29F4743FC4BCABF40B53B9 /* PPStickerKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 11262F04A670E33F1169BEB883B9B20F /* PPStickerKeyboard.m */; };
+		154D89D53F2EDBA62ACED3CD12893939 /* UIScreen+PPAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 88CA471D423CAA322BF0175ED214671E /* UIScreen+PPAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16EBA2608DE416D6B99AF10EB8C1D373 /* delete-emoji@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDE8AE46958BCC83B9E4EF75A5DEE23B /* delete-emoji@3x.png */; };
+		1A3FA208A27D280471DEA71D824EBE6D /* PPQueuingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = DE243E9FCFF9AA589D752C854A17498E /* PPQueuingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C01472390038FC55A79814BEFED0A74 /* toggle_keyboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB5DAEC8EBE31B72D47A8BE96E526A56 /* toggle_keyboard@2x.png */; };
+		2018E5DEB62D12F562BCEEF9F6C4604E /* PPEmojiPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B6CF72C5D1DB7119E92028CA1DF882 /* PPEmojiPreviewView.m */; };
+		201EAB6E3D0B6BB293F972E44B06030A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		219BA34CADD8B0F67437EEBF6AB0AFB7 /* UIColor+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 55432F3775B3F7C35139044513734674 /* UIColor+PPAddition.m */; };
+		2768B91B43E41197C261A4463F6FBADC /* PPStickerTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = AEEE94A266D443D2A0C2B4D664B56839 /* PPStickerTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27D2C93E5925032BCCF3F7C20C3CC721 /* NSBundle+YDD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E3681A5B2C0F05689D1508187BC5F94 /* NSBundle+YDD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28B784C032E3E85613D9C45E5476DE4F /* UIImage+YDDPod.h in Headers */ = {isa = PBXBuildFile; fileRef = CB5DE3AEF011D66794EA38F1F1D1FE12 /* UIImage+YDDPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DB9B974ED6E4AE9B8FE52B43FF1AD2F /* PPEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D89B28C07A004B4DBC170C7A2D62F31 /* PPEmoji.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3002CAE699DB87C1B72A911F0E19EA43 /* delete-emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = B5632E22BE0498AE4E856BB065E42C1D /* delete-emoji.png */; };
+		331B3F87984E0708A69D2E4C14E4C52F /* NSBundle+YDD.m in Sources */ = {isa = PBXBuildFile; fileRef = 06BD95477EF1F02ED4CFA7C83B3C47BE /* NSBundle+YDD.m */; };
+		49742DA9409DEFF9F993F2A68B4488DF /* Sticker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DDB86F82C243EF1733B907638E3A0A00 /* Sticker.bundle */; };
+		52FE6F2E08B9AC1CA312D03EFE05B911 /* YDDPPStickerKeyboard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B32771AA538094CFAEC404DF0FB41495 /* YDDPPStickerKeyboard.bundle */; };
+		56165C8322AD476E7FA3B0F20101146F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		57FB81ECB4C2E61284648DBFB482DE22 /* emoji-preview-bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6BA169795AEA65BC758FE336C3B644 /* emoji-preview-bg@3x.png */; };
+		5833063629938160CA311227AB91A4B1 /* PPReusablePage.h in Headers */ = {isa = PBXBuildFile; fileRef = 73340F2D61D16C6E18935DD96F3C4090 /* PPReusablePage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		585A532827063F0EC02AC27845EEE1A7 /* UIScrollView+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DFD693EA51E463920E268356FE1ECE /* UIScrollView+PPAddition.m */; };
+		58DACF3EC1ABA6B30C9D239511A4D52A /* PPStickerKeyboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 3730C06935953CCBC8B0933DB9DCA8A8 /* PPStickerKeyboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EC5D4D5B31EC1799A55399DD5336C02 /* InnerStickersInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3DB36D4ABCBDBFE6DBF4A0AA16ACA3A /* InnerStickersInfo.plist */; };
+		5EDD1EE3EC00F5D79EC9264E7033DF11 /* UIColor+PPAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E1AB05292E885AAD12EDE04F42AD73 /* UIColor+PPAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CCE0AA6930C776AD52060E4F2184B97 /* UIScrollView+PPAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C72B09EEB622FA4CB2C4E1256F4C34C /* UIScrollView+PPAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E800B705B31ABE1583B7F24F035FDE4 /* UIImage+YDDPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858E287F2778EA793A082A5D872E019 /* UIImage+YDDPod.m */; };
+		6F2C2D1D2E987030E28BD132415D4C1B /* PPSticker.m in Sources */ = {isa = PBXBuildFile; fileRef = D8441A7423DEAAD92A45BAAF06F54B4B /* PPSticker.m */; };
+		7942F3A0AC2BE371058A40477D34ED74 /* UIButton+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 319235DA70B314803D65620179A89F45 /* UIButton+PPAddition.m */; };
+		7C0F15155724252779E722F6DEFF0514 /* emoji-preview-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04B930316DE20201E17168BD90BBEDF3 /* emoji-preview-bg@2x.png */; };
+		80D0215194BB5B9FCAD796181548886B /* NSAttributedString+PPAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D12FAD402CE41C5751D25E132A2DE84 /* NSAttributedString+PPAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82CC4D4346D721457927E4C9ECB63A94 /* PPStickerInputView.h in Headers */ = {isa = PBXBuildFile; fileRef = 181C5DB3AF3D540F66A4F1D8524D28DF /* PPStickerInputView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A219AEDD54D434027B35B06C7D58D2A /* NSString+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 59087A7C70D9029398AC8B05D5348C96 /* NSString+PPAddition.m */; };
+		8C61ECD84D3FD75D9BC6BC3E4B00A92A /* Pods-YDDPPStickerKeyboard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 398EAC106C7FBFDF102F11F328333DD5 /* Pods-YDDPPStickerKeyboard_Example-dummy.m */; };
+		8EA1C59C2A2EA6DF24A89BBF1D031CA9 /* PPStickerTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B645DADEC90C2F0EE8DE9EA1EF074 /* PPStickerTextView.m */; };
+		9145151716ECB364DC00B7728345D10A /* PPEmojiPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 604AF967C1EDB93B2430AF45E2609D6C /* PPEmojiPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		934ADA69CE56C7C3F2586210E2C665EF /* PPStickerPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = BB5FBAAAB977D03BB899D1F0941C94B7 /* PPStickerPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95A70FC963166A5E516EDD9947C9D3DE /* UIScreen+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = E0A48C857F30CF9FF44E2B1B684B59E6 /* UIScreen+PPAddition.m */; };
+		97A2A1671415719292816665681DC97A /* PPSlideLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948BD2128A841A83F6E5B7FD8BEC486 /* PPSlideLineButton.m */; };
+		9902B9525BC88DD8A50AA0E4A879FD54 /* toggle_emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A343DC1C7B2C16675F4BC6C0989B255 /* toggle_emoji.png */; };
+		9BB19919FF208B281AAE22FBD0E4D74A /* UIButton+PPAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A9759CB6E818813CA4AA526E19B41FF /* UIButton+PPAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A49AE30CB9A8315881715314292EF6AB /* YDDPPStickerKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7BD58CC17044444BBB908F008710EE /* YDDPPStickerKeyboard-dummy.m */; };
+		A5DB90CB08ABF523D8797DFA77EDC3C0 /* Pods-YDDPPStickerKeyboard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E45E8D99043DE8C69F3B941B86A9C64 /* Pods-YDDPPStickerKeyboard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8A60C67F974198F6B3228BC7E5D11DB /* PPUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0346374D88B5CFD4B5D3A1626ACDB56B /* PPUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE3F641076E3A30E5555FEECA94A4BC9 /* emoji-preview-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A08D4057F951E1D9EDA0D557604232EF /* emoji-preview-bg.png */; };
+		AE45B319881B798F034A4146CB7F8298 /* NSAttributedString+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 088ED1574D7F5CAC8A1F7EFE6A837CE1 /* NSAttributedString+PPAddition.m */; };
+		AFCBD41CA2296F5B47BF3F81AD7D35D2 /* PPStickerPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE97A3FE6B42E3754AE3EFCB9240DCBC /* PPStickerPageView.m */; };
+		B7AE57B6D2ADD9FEC2A86E2AAA241D4B /* toggle_keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5017BB0C308DA3F7DE5BA59B007804 /* toggle_keyboard.png */; };
+		B9DB76942F8BDB803D07A376E0B0336F /* Pods-YDDPPStickerKeyboard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2D29E57FA1F38EF609A6C0F279AA40 /* Pods-YDDPPStickerKeyboard_Tests-dummy.m */; };
+		BA6F1A032FA6ADDB9AFDF0F0D14B7A47 /* toggle_keyboard@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 861B020332D0D3A42E4FEE86B0D20CA6 /* toggle_keyboard@3x.png */; };
+		C12D4E2EAA96C2E37EB994B63F624B7D /* PPTextBackedString.h in Headers */ = {isa = PBXBuildFile; fileRef = CB48EA8A102A9F47B6B8480CCC9B5931 /* PPTextBackedString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C338B3905F7A89C0BB0319BDF5B4D601 /* delete-emoji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 28C48F372E9F9544DBAF55C259BF6941 /* delete-emoji@2x.png */; };
+		C822B46287049EEBEEEFD38B7BAD0F85 /* PPEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C377E229C3EF4768933BE352D8A0E7 /* PPEmoji.m */; };
+		D2393D4670FC284793C5EDF832C38B6A /* YDDPPStickerKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E48197784E996537C9BD4A34E8C60DE7 /* YDDPPStickerKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D70A4A8E9E85981E182DA475A131068F /* PPStickerDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 28329B772822E0760069EBF388BE5E9E /* PPStickerDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D74F31A0484652B386C6B3F44903BAB1 /* Pods-YDDPPStickerKeyboard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26019F329B67D54D4A4E21339C9EA27C /* Pods-YDDPPStickerKeyboard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3E5FD521207659AB122AA17761FF3FF /* PPStickerInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC3D36802670D2F5F1AFF270FE0AD43 /* PPStickerInputView.m */; };
+		E620227255A9C249511F85477271D390 /* toggle_emoji@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C7FA6A15E0B2EBD89A4DC6F243AB7827 /* toggle_emoji@3x.png */; };
+		E68C2DC74DE4321A8088EBD4B35ABF9F /* PPStickerDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5111A9FBCC08C7F7A713F2029C6562F2 /* PPStickerDataManager.m */; };
+		ECC8F94BE3C8715287D911F46C4A11CC /* PPQueuingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D10C97B509D95863208B228F0E90531 /* PPQueuingScrollView.m */; };
+		F1B5F85938FCF09EE2A88EB72EA1A475 /* PPSlideLineButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D4A74E45DF580E0963801F6417C1485 /* PPSlideLineButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBBEC2C3AFEF663D697B42573408480C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FDF94DDE1BD5742A0C1D8D564F29BE35 /* PPSticker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7274F2E89E07E7F6B0958AF95AD063A6 /* PPSticker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE03358D453E20EF87112177EE809D59 /* PPTextBackedString.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DABD90086D73C016588D822E2A66BB /* PPTextBackedString.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		207D00B4034B857289882F70D9E19194 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A9066E790FCD2AFA3B6657BC7AB6866;
+			remoteInfo = YDDPPStickerKeyboard;
+		};
+		D434ADED0A8D081E93A105E81ED7B05A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 314852C6B0E2453E39C0E4B8203C7DAC;
+			remoteInfo = "YDDPPStickerKeyboard-YDDPPStickerKeyboard";
+		};
+		F191763F9AF32D056AE92808A76218C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DD55DA8B462EA652C6E59FF36477F14;
+			remoteInfo = "Pods-YDDPPStickerKeyboard_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0346374D88B5CFD4B5D3A1626ACDB56B /* PPUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPUtil.h; sourceTree = "<group>"; };
+		03C377E229C3EF4768933BE352D8A0E7 /* PPEmoji.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPEmoji.m; sourceTree = "<group>"; };
+		04B930316DE20201E17168BD90BBEDF3 /* emoji-preview-bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "emoji-preview-bg@2x.png"; path = "YDDPPStickerKeyboard/Assets/emoji-preview-bg@2x.png"; sourceTree = "<group>"; };
+		06BD95477EF1F02ED4CFA7C83B3C47BE /* NSBundle+YDD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+YDD.m"; path = "YDDPPStickerKeyboard/Classes/NSBundle+YDD.m"; sourceTree = "<group>"; };
+		088ED1574D7F5CAC8A1F7EFE6A837CE1 /* NSAttributedString+PPAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+PPAddition.m"; sourceTree = "<group>"; };
+		08E1AB05292E885AAD12EDE04F42AD73 /* UIColor+PPAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+PPAddition.h"; sourceTree = "<group>"; };
+		08F1CD4D3EE6C8339B818C8FF3ED9626 /* YDDPPStickerKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDDPPStickerKeyboard.modulemap; sourceTree = "<group>"; };
+		0C7BD58CC17044444BBB908F008710EE /* YDDPPStickerKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDDPPStickerKeyboard-dummy.m"; sourceTree = "<group>"; };
+		0F62446BA8FFA2902C99565D9297ED7A /* YDDPPStickerKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDDPPStickerKeyboard.release.xcconfig; sourceTree = "<group>"; };
+		11262F04A670E33F1169BEB883B9B20F /* PPStickerKeyboard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPStickerKeyboard.m; sourceTree = "<group>"; };
+		12874FA014FF4BB2942AC84DCC49FF5D /* YDDPPStickerKeyboard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YDDPPStickerKeyboard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		181C5DB3AF3D540F66A4F1D8524D28DF /* PPStickerInputView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPStickerInputView.h; path = YDDPPStickerKeyboard/Classes/PPStickerInputView.h; sourceTree = "<group>"; };
+		1B463DD13AFCE3325F0B277A71E9D35A /* Pods-YDDPPStickerKeyboard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YDDPPStickerKeyboard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		20DFD693EA51E463920E268356FE1ECE /* UIScrollView+PPAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PPAddition.m"; sourceTree = "<group>"; };
+		26019F329B67D54D4A4E21339C9EA27C /* Pods-YDDPPStickerKeyboard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDDPPStickerKeyboard_Example-umbrella.h"; sourceTree = "<group>"; };
+		28329B772822E0760069EBF388BE5E9E /* PPStickerDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPStickerDataManager.h; sourceTree = "<group>"; };
+		2858E287F2778EA793A082A5D872E019 /* UIImage+YDDPod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YDDPod.m"; path = "YDDPPStickerKeyboard/Classes/UIImage+YDDPod.m"; sourceTree = "<group>"; };
+		28C48F372E9F9544DBAF55C259BF6941 /* delete-emoji@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "delete-emoji@2x.png"; path = "YDDPPStickerKeyboard/Assets/delete-emoji@2x.png"; sourceTree = "<group>"; };
+		2B246B98E9F126A58D303C0936C9A111 /* YDDPPStickerKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDDPPStickerKeyboard.debug.xcconfig; sourceTree = "<group>"; };
+		2D4A74E45DF580E0963801F6417C1485 /* PPSlideLineButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPSlideLineButton.h; sourceTree = "<group>"; };
+		319235DA70B314803D65620179A89F45 /* UIButton+PPAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PPAddition.m"; sourceTree = "<group>"; };
+		3730C06935953CCBC8B0933DB9DCA8A8 /* PPStickerKeyboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPStickerKeyboard.h; sourceTree = "<group>"; };
+		398EAC106C7FBFDF102F11F328333DD5 /* Pods-YDDPPStickerKeyboard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDDPPStickerKeyboard_Example-dummy.m"; sourceTree = "<group>"; };
+		3C72B09EEB622FA4CB2C4E1256F4C34C /* UIScrollView+PPAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PPAddition.h"; sourceTree = "<group>"; };
+		3D9FE6C5B629AACE77D2D092BC4942B3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3E19264F0E9731AB442005A2F88F949E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		441A5F905EF4AAA20BB04ACE67CD8443 /* Pods-YDDPPStickerKeyboard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDDPPStickerKeyboard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4948BD2128A841A83F6E5B7FD8BEC486 /* PPSlideLineButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPSlideLineButton.m; sourceTree = "<group>"; };
+		4D89B28C07A004B4DBC170C7A2D62F31 /* PPEmoji.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPEmoji.h; sourceTree = "<group>"; };
+		50906B91418FFFF25CD1F37DE3F01453 /* YDDPPStickerKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDDPPStickerKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5111A9FBCC08C7F7A713F2029C6562F2 /* PPStickerDataManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPStickerDataManager.m; sourceTree = "<group>"; };
+		55432F3775B3F7C35139044513734674 /* UIColor+PPAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PPAddition.m"; sourceTree = "<group>"; };
+		58ABF6B3DE66BB6833C95E32A5E084CF /* toggle_emoji@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toggle_emoji@2x.png"; path = "YDDPPStickerKeyboard/Assets/toggle_emoji@2x.png"; sourceTree = "<group>"; };
+		59087A7C70D9029398AC8B05D5348C96 /* NSString+PPAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+PPAddition.m"; sourceTree = "<group>"; };
+		5A62E32D24A85B1D5F062A6B8E923906 /* Pods-YDDPPStickerKeyboard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDDPPStickerKeyboard_Example.modulemap"; sourceTree = "<group>"; };
+		604AF967C1EDB93B2430AF45E2609D6C /* PPEmojiPreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPEmojiPreviewView.h; sourceTree = "<group>"; };
+		6D5017BB0C308DA3F7DE5BA59B007804 /* toggle_keyboard.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = toggle_keyboard.png; path = YDDPPStickerKeyboard/Assets/toggle_keyboard.png; sourceTree = "<group>"; };
+		7274F2E89E07E7F6B0958AF95AD063A6 /* PPSticker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPSticker.h; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73340F2D61D16C6E18935DD96F3C4090 /* PPReusablePage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPReusablePage.h; sourceTree = "<group>"; };
+		7A9759CB6E818813CA4AA526E19B41FF /* UIButton+PPAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+PPAddition.h"; sourceTree = "<group>"; };
+		7C2D29E57FA1F38EF609A6C0F279AA40 /* Pods-YDDPPStickerKeyboard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDDPPStickerKeyboard_Tests-dummy.m"; sourceTree = "<group>"; };
+		7D12FAD402CE41C5751D25E132A2DE84 /* NSAttributedString+PPAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+PPAddition.h"; sourceTree = "<group>"; };
+		861B020332D0D3A42E4FEE86B0D20CA6 /* toggle_keyboard@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toggle_keyboard@3x.png"; path = "YDDPPStickerKeyboard/Assets/toggle_keyboard@3x.png"; sourceTree = "<group>"; };
+		88CA471D423CAA322BF0175ED214671E /* UIScreen+PPAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScreen+PPAddition.h"; sourceTree = "<group>"; };
+		8A343DC1C7B2C16675F4BC6C0989B255 /* toggle_emoji.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = toggle_emoji.png; path = YDDPPStickerKeyboard/Assets/toggle_emoji.png; sourceTree = "<group>"; };
+		8B3B645DADEC90C2F0EE8DE9EA1EF074 /* PPStickerTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPStickerTextView.m; sourceTree = "<group>"; };
+		8E45E8D99043DE8C69F3B941B86A9C64 /* Pods-YDDPPStickerKeyboard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDDPPStickerKeyboard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		97095FB74947144F1FDF82C9FA33D8FA /* Pods-YDDPPStickerKeyboard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDDPPStickerKeyboard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9C7145BE64BAC769EC71631C70F3F652 /* NSString+PPAddition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+PPAddition.h"; sourceTree = "<group>"; };
+		9D10C97B509D95863208B228F0E90531 /* PPQueuingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPQueuingScrollView.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3681A5B2C0F05689D1508187BC5F94 /* NSBundle+YDD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+YDD.h"; path = "YDDPPStickerKeyboard/Classes/NSBundle+YDD.h"; sourceTree = "<group>"; };
+		A08D4057F951E1D9EDA0D557604232EF /* emoji-preview-bg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "emoji-preview-bg.png"; path = "YDDPPStickerKeyboard/Assets/emoji-preview-bg.png"; sourceTree = "<group>"; };
+		A4881CCFD1CB24BDA83B73785531C687 /* Pods_YDDPPStickerKeyboard_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDDPPStickerKeyboard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5494ABBCABBCE51E24A767BBA829A84 /* Pods-YDDPPStickerKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDDPPStickerKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A75A1C3548A0911AE508E4DD460F6E5F /* ResourceBundle-YDDPPStickerKeyboard-YDDPPStickerKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-YDDPPStickerKeyboard-YDDPPStickerKeyboard-Info.plist"; sourceTree = "<group>"; };
+		AE97A3FE6B42E3754AE3EFCB9240DCBC /* PPStickerPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPStickerPageView.m; sourceTree = "<group>"; };
+		AEEE94A266D443D2A0C2B4D664B56839 /* PPStickerTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPStickerTextView.h; sourceTree = "<group>"; };
+		B15B3DEF51239DAB28BCF59B699B9B3E /* Pods_YDDPPStickerKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDDPPStickerKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22F13D8F89F86D8DEF63C54D95045A5 /* Pods-YDDPPStickerKeyboard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDDPPStickerKeyboard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B32771AA538094CFAEC404DF0FB41495 /* YDDPPStickerKeyboard.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YDDPPStickerKeyboard.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3DB36D4ABCBDBFE6DBF4A0AA16ACA3A /* InnerStickersInfo.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = InnerStickersInfo.plist; path = YDDPPStickerKeyboard/Assets/InnerStickersInfo.plist; sourceTree = "<group>"; };
+		B5632E22BE0498AE4E856BB065E42C1D /* delete-emoji.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "delete-emoji.png"; path = "YDDPPStickerKeyboard/Assets/delete-emoji.png"; sourceTree = "<group>"; };
+		BB5FBAAAB977D03BB899D1F0941C94B7 /* PPStickerPageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPStickerPageView.h; sourceTree = "<group>"; };
+		BF6BA169795AEA65BC758FE336C3B644 /* emoji-preview-bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "emoji-preview-bg@3x.png"; path = "YDDPPStickerKeyboard/Assets/emoji-preview-bg@3x.png"; sourceTree = "<group>"; };
+		C41A657A7D6F5C15830B3E31165CB146 /* Pods-YDDPPStickerKeyboard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDDPPStickerKeyboard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6B6CF72C5D1DB7119E92028CA1DF882 /* PPEmojiPreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPEmojiPreviewView.m; sourceTree = "<group>"; };
+		C752A5BB4C4654A89E6C3F1E2000017F /* YDDPPStickerKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDDPPStickerKeyboard-Info.plist"; sourceTree = "<group>"; };
+		C7FA6A15E0B2EBD89A4DC6F243AB7827 /* toggle_emoji@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toggle_emoji@3x.png"; path = "YDDPPStickerKeyboard/Assets/toggle_emoji@3x.png"; sourceTree = "<group>"; };
+		C8B1AC29D7A5BC924815A42C5EA1574C /* Pods-YDDPPStickerKeyboard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDDPPStickerKeyboard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB48EA8A102A9F47B6B8480CCC9B5931 /* PPTextBackedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPTextBackedString.h; sourceTree = "<group>"; };
+		CB5DE3AEF011D66794EA38F1F1D1FE12 /* UIImage+YDDPod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YDDPod.h"; path = "YDDPPStickerKeyboard/Classes/UIImage+YDDPod.h"; sourceTree = "<group>"; };
+		D363E5F5FEE8082008618338165AA9B1 /* Pods-YDDPPStickerKeyboard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDDPPStickerKeyboard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5A14D422ADB61F806ED9581CD2F9D92 /* YDDPPStickerKeyboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDDPPStickerKeyboard-prefix.pch"; sourceTree = "<group>"; };
+		D6DABD90086D73C016588D822E2A66BB /* PPTextBackedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPTextBackedString.m; sourceTree = "<group>"; };
+		D77ECFF0BA8DA9FE818DCC874B230408 /* Pods-YDDPPStickerKeyboard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDDPPStickerKeyboard_Tests.modulemap"; sourceTree = "<group>"; };
+		D8441A7423DEAAD92A45BAAF06F54B4B /* PPSticker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PPSticker.m; sourceTree = "<group>"; };
+		DDB86F82C243EF1733B907638E3A0A00 /* Sticker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Sticker.bundle; path = YDDPPStickerKeyboard/Assets/Sticker.bundle; sourceTree = "<group>"; };
+		DDE8AE46958BCC83B9E4EF75A5DEE23B /* delete-emoji@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "delete-emoji@3x.png"; path = "YDDPPStickerKeyboard/Assets/delete-emoji@3x.png"; sourceTree = "<group>"; };
+		DE1139A13E066AA0FFDF5BEA413F267D /* Pods-YDDPPStickerKeyboard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDDPPStickerKeyboard_Example-Info.plist"; sourceTree = "<group>"; };
+		DE243E9FCFF9AA589D752C854A17498E /* PPQueuingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PPQueuingScrollView.h; sourceTree = "<group>"; };
+		E0A48C857F30CF9FF44E2B1B684B59E6 /* UIScreen+PPAddition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+PPAddition.m"; sourceTree = "<group>"; };
+		E48197784E996537C9BD4A34E8C60DE7 /* YDDPPStickerKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDDPPStickerKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		EB5DAEC8EBE31B72D47A8BE96E526A56 /* toggle_keyboard@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toggle_keyboard@2x.png"; path = "YDDPPStickerKeyboard/Assets/toggle_keyboard@2x.png"; sourceTree = "<group>"; };
+		F230BF6C1220F81F1AD614A9A09BFC3F /* Pods-YDDPPStickerKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDDPPStickerKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F5BF2B42043E0602B7F1DB47B77739D7 /* Pods-YDDPPStickerKeyboard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDDPPStickerKeyboard_Tests-Info.plist"; sourceTree = "<group>"; };
+		FDC3D36802670D2F5F1AFF270FE0AD43 /* PPStickerInputView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PPStickerInputView.m; path = YDDPPStickerKeyboard/Classes/PPStickerInputView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072DF2A1278285467929658D1BEEC854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBBEC2C3AFEF663D697B42573408480C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		441167053C45CD23D36D7FACE64749EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56165C8322AD476E7FA3B0F20101146F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AD352C6312907651D2324722874079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C57732CB8118F8C8F8575A6E2BDFEE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201EAB6E3D0B6BB293F972E44B06030A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		023B1C2DFA2F0BA3AB17BE3EC10E1E10 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4D89B28C07A004B4DBC170C7A2D62F31 /* PPEmoji.h */,
+				03C377E229C3EF4768933BE352D8A0E7 /* PPEmoji.m */,
+				604AF967C1EDB93B2430AF45E2609D6C /* PPEmojiPreviewView.h */,
+				C6B6CF72C5D1DB7119E92028CA1DF882 /* PPEmojiPreviewView.m */,
+				7274F2E89E07E7F6B0958AF95AD063A6 /* PPSticker.h */,
+				D8441A7423DEAAD92A45BAAF06F54B4B /* PPSticker.m */,
+				28329B772822E0760069EBF388BE5E9E /* PPStickerDataManager.h */,
+				5111A9FBCC08C7F7A713F2029C6562F2 /* PPStickerDataManager.m */,
+				3730C06935953CCBC8B0933DB9DCA8A8 /* PPStickerKeyboard.h */,
+				11262F04A670E33F1169BEB883B9B20F /* PPStickerKeyboard.m */,
+				BB5FBAAAB977D03BB899D1F0941C94B7 /* PPStickerPageView.h */,
+				AE97A3FE6B42E3754AE3EFCB9240DCBC /* PPStickerPageView.m */,
+				AEEE94A266D443D2A0C2B4D664B56839 /* PPStickerTextView.h */,
+				8B3B645DADEC90C2F0EE8DE9EA1EF074 /* PPStickerTextView.m */,
+			);
+			name = Keyboard;
+			path = YDDPPStickerKeyboard/Classes/Keyboard;
+			sourceTree = "<group>";
+		};
+		3C3F09B61A98262828C6E14A6DEF2899 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F76C9A7CEDA08F42772FD23873166B31 /* YDDPPStickerKeyboard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3E35BF01DAF4B1B1B40B826A2F315EDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A75A1C3548A0911AE508E4DD460F6E5F /* ResourceBundle-YDDPPStickerKeyboard-YDDPPStickerKeyboard-Info.plist */,
+				08F1CD4D3EE6C8339B818C8FF3ED9626 /* YDDPPStickerKeyboard.modulemap */,
+				0C7BD58CC17044444BBB908F008710EE /* YDDPPStickerKeyboard-dummy.m */,
+				C752A5BB4C4654A89E6C3F1E2000017F /* YDDPPStickerKeyboard-Info.plist */,
+				D5A14D422ADB61F806ED9581CD2F9D92 /* YDDPPStickerKeyboard-prefix.pch */,
+				E48197784E996537C9BD4A34E8C60DE7 /* YDDPPStickerKeyboard-umbrella.h */,
+				2B246B98E9F126A58D303C0936C9A111 /* YDDPPStickerKeyboard.debug.xcconfig */,
+				0F62446BA8FFA2902C99565D9297ED7A /* YDDPPStickerKeyboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YDDPPStickerKeyboard";
+			sourceTree = "<group>";
+		};
+		48C371D85F7F0C5588D75B5E9C04D66A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BE47DE5258DE01346D146D8A0812E23 /* Pods-YDDPPStickerKeyboard_Example */,
+				ADB14DB56F9BB5EFEFACD8E14666B3AD /* Pods-YDDPPStickerKeyboard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C45AFADC540DC4B09CA646D28397017 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7D12FAD402CE41C5751D25E132A2DE84 /* NSAttributedString+PPAddition.h */,
+				088ED1574D7F5CAC8A1F7EFE6A837CE1 /* NSAttributedString+PPAddition.m */,
+				9C7145BE64BAC769EC71631C70F3F652 /* NSString+PPAddition.h */,
+				59087A7C70D9029398AC8B05D5348C96 /* NSString+PPAddition.m */,
+				DE243E9FCFF9AA589D752C854A17498E /* PPQueuingScrollView.h */,
+				9D10C97B509D95863208B228F0E90531 /* PPQueuingScrollView.m */,
+				73340F2D61D16C6E18935DD96F3C4090 /* PPReusablePage.h */,
+				2D4A74E45DF580E0963801F6417C1485 /* PPSlideLineButton.h */,
+				4948BD2128A841A83F6E5B7FD8BEC486 /* PPSlideLineButton.m */,
+				CB48EA8A102A9F47B6B8480CCC9B5931 /* PPTextBackedString.h */,
+				D6DABD90086D73C016588D822E2A66BB /* PPTextBackedString.m */,
+				0346374D88B5CFD4B5D3A1626ACDB56B /* PPUtil.h */,
+				7A9759CB6E818813CA4AA526E19B41FF /* UIButton+PPAddition.h */,
+				319235DA70B314803D65620179A89F45 /* UIButton+PPAddition.m */,
+				08E1AB05292E885AAD12EDE04F42AD73 /* UIColor+PPAddition.h */,
+				55432F3775B3F7C35139044513734674 /* UIColor+PPAddition.m */,
+				88CA471D423CAA322BF0175ED214671E /* UIScreen+PPAddition.h */,
+				E0A48C857F30CF9FF44E2B1B684B59E6 /* UIScreen+PPAddition.m */,
+				3C72B09EEB622FA4CB2C4E1256F4C34C /* UIScrollView+PPAddition.h */,
+				20DFD693EA51E463920E268356FE1ECE /* UIScrollView+PPAddition.m */,
+			);
+			name = Util;
+			path = YDDPPStickerKeyboard/Classes/Util;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5BE47DE5258DE01346D146D8A0812E23 /* Pods-YDDPPStickerKeyboard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5A62E32D24A85B1D5F062A6B8E923906 /* Pods-YDDPPStickerKeyboard_Example.modulemap */,
+				D363E5F5FEE8082008618338165AA9B1 /* Pods-YDDPPStickerKeyboard_Example-acknowledgements.markdown */,
+				441A5F905EF4AAA20BB04ACE67CD8443 /* Pods-YDDPPStickerKeyboard_Example-acknowledgements.plist */,
+				398EAC106C7FBFDF102F11F328333DD5 /* Pods-YDDPPStickerKeyboard_Example-dummy.m */,
+				1B463DD13AFCE3325F0B277A71E9D35A /* Pods-YDDPPStickerKeyboard_Example-frameworks.sh */,
+				DE1139A13E066AA0FFDF5BEA413F267D /* Pods-YDDPPStickerKeyboard_Example-Info.plist */,
+				26019F329B67D54D4A4E21339C9EA27C /* Pods-YDDPPStickerKeyboard_Example-umbrella.h */,
+				F230BF6C1220F81F1AD614A9A09BFC3F /* Pods-YDDPPStickerKeyboard_Example.debug.xcconfig */,
+				A5494ABBCABBCE51E24A767BBA829A84 /* Pods-YDDPPStickerKeyboard_Example.release.xcconfig */,
+			);
+			name = "Pods-YDDPPStickerKeyboard_Example";
+			path = "Target Support Files/Pods-YDDPPStickerKeyboard_Example";
+			sourceTree = "<group>";
+		};
+		ADB14DB56F9BB5EFEFACD8E14666B3AD /* Pods-YDDPPStickerKeyboard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D77ECFF0BA8DA9FE818DCC874B230408 /* Pods-YDDPPStickerKeyboard_Tests.modulemap */,
+				C8B1AC29D7A5BC924815A42C5EA1574C /* Pods-YDDPPStickerKeyboard_Tests-acknowledgements.markdown */,
+				C41A657A7D6F5C15830B3E31165CB146 /* Pods-YDDPPStickerKeyboard_Tests-acknowledgements.plist */,
+				7C2D29E57FA1F38EF609A6C0F279AA40 /* Pods-YDDPPStickerKeyboard_Tests-dummy.m */,
+				F5BF2B42043E0602B7F1DB47B77739D7 /* Pods-YDDPPStickerKeyboard_Tests-Info.plist */,
+				8E45E8D99043DE8C69F3B941B86A9C64 /* Pods-YDDPPStickerKeyboard_Tests-umbrella.h */,
+				B22F13D8F89F86D8DEF63C54D95045A5 /* Pods-YDDPPStickerKeyboard_Tests.debug.xcconfig */,
+				97095FB74947144F1FDF82C9FA33D8FA /* Pods-YDDPPStickerKeyboard_Tests.release.xcconfig */,
+			);
+			name = "Pods-YDDPPStickerKeyboard_Tests";
+			path = "Target Support Files/Pods-YDDPPStickerKeyboard_Tests";
+			sourceTree = "<group>";
+		};
+		B459F61A8541461E32617590BE64AA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B15B3DEF51239DAB28BCF59B699B9B3E /* Pods_YDDPPStickerKeyboard_Example.framework */,
+				A4881CCFD1CB24BDA83B73785531C687 /* Pods_YDDPPStickerKeyboard_Tests.framework */,
+				B32771AA538094CFAEC404DF0FB41495 /* YDDPPStickerKeyboard.bundle */,
+				50906B91418FFFF25CD1F37DE3F01453 /* YDDPPStickerKeyboard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3C3F09B61A98262828C6E14A6DEF2899 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B459F61A8541461E32617590BE64AA92 /* Products */,
+				48C371D85F7F0C5588D75B5E9C04D66A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F05143296040CB212F63040C4EE52892 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3D9FE6C5B629AACE77D2D092BC4942B3 /* LICENSE */,
+				3E19264F0E9731AB442005A2F88F949E /* README.md */,
+				12874FA014FF4BB2942AC84DCC49FF5D /* YDDPPStickerKeyboard.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F76C9A7CEDA08F42772FD23873166B31 /* YDDPPStickerKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B5632E22BE0498AE4E856BB065E42C1D /* delete-emoji.png */,
+				28C48F372E9F9544DBAF55C259BF6941 /* delete-emoji@2x.png */,
+				DDE8AE46958BCC83B9E4EF75A5DEE23B /* delete-emoji@3x.png */,
+				A08D4057F951E1D9EDA0D557604232EF /* emoji-preview-bg.png */,
+				04B930316DE20201E17168BD90BBEDF3 /* emoji-preview-bg@2x.png */,
+				BF6BA169795AEA65BC758FE336C3B644 /* emoji-preview-bg@3x.png */,
+				B3DB36D4ABCBDBFE6DBF4A0AA16ACA3A /* InnerStickersInfo.plist */,
+				9E3681A5B2C0F05689D1508187BC5F94 /* NSBundle+YDD.h */,
+				06BD95477EF1F02ED4CFA7C83B3C47BE /* NSBundle+YDD.m */,
+				181C5DB3AF3D540F66A4F1D8524D28DF /* PPStickerInputView.h */,
+				FDC3D36802670D2F5F1AFF270FE0AD43 /* PPStickerInputView.m */,
+				DDB86F82C243EF1733B907638E3A0A00 /* Sticker.bundle */,
+				8A343DC1C7B2C16675F4BC6C0989B255 /* toggle_emoji.png */,
+				58ABF6B3DE66BB6833C95E32A5E084CF /* toggle_emoji@2x.png */,
+				C7FA6A15E0B2EBD89A4DC6F243AB7827 /* toggle_emoji@3x.png */,
+				6D5017BB0C308DA3F7DE5BA59B007804 /* toggle_keyboard.png */,
+				EB5DAEC8EBE31B72D47A8BE96E526A56 /* toggle_keyboard@2x.png */,
+				861B020332D0D3A42E4FEE86B0D20CA6 /* toggle_keyboard@3x.png */,
+				CB5DE3AEF011D66794EA38F1F1D1FE12 /* UIImage+YDDPod.h */,
+				2858E287F2778EA793A082A5D872E019 /* UIImage+YDDPod.m */,
+				023B1C2DFA2F0BA3AB17BE3EC10E1E10 /* Keyboard */,
+				F05143296040CB212F63040C4EE52892 /* Pod */,
+				3E35BF01DAF4B1B1B40B826A2F315EDD /* Support Files */,
+				4C45AFADC540DC4B09CA646D28397017 /* Util */,
+			);
+			name = YDDPPStickerKeyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		23322A96F1553C50EE2D2FFA2C6AB625 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5DB90CB08ABF523D8797DFA77EDC3C0 /* Pods-YDDPPStickerKeyboard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A69ED8547B9C2C9272BD206F11DF158C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74F31A0484652B386C6B3F44903BAB1 /* Pods-YDDPPStickerKeyboard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D0F0D4A5B071F1816E1ECFE83C77BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D0215194BB5B9FCAD796181548886B /* NSAttributedString+PPAddition.h in Headers */,
+				27D2C93E5925032BCCF3F7C20C3CC721 /* NSBundle+YDD.h in Headers */,
+				02D5218E1A9FF9C69457C128526B1B2F /* NSString+PPAddition.h in Headers */,
+				2DB9B974ED6E4AE9B8FE52B43FF1AD2F /* PPEmoji.h in Headers */,
+				9145151716ECB364DC00B7728345D10A /* PPEmojiPreviewView.h in Headers */,
+				1A3FA208A27D280471DEA71D824EBE6D /* PPQueuingScrollView.h in Headers */,
+				5833063629938160CA311227AB91A4B1 /* PPReusablePage.h in Headers */,
+				F1B5F85938FCF09EE2A88EB72EA1A475 /* PPSlideLineButton.h in Headers */,
+				FDF94DDE1BD5742A0C1D8D564F29BE35 /* PPSticker.h in Headers */,
+				D70A4A8E9E85981E182DA475A131068F /* PPStickerDataManager.h in Headers */,
+				82CC4D4346D721457927E4C9ECB63A94 /* PPStickerInputView.h in Headers */,
+				58DACF3EC1ABA6B30C9D239511A4D52A /* PPStickerKeyboard.h in Headers */,
+				934ADA69CE56C7C3F2586210E2C665EF /* PPStickerPageView.h in Headers */,
+				2768B91B43E41197C261A4463F6FBADC /* PPStickerTextView.h in Headers */,
+				C12D4E2EAA96C2E37EB994B63F624B7D /* PPTextBackedString.h in Headers */,
+				A8A60C67F974198F6B3228BC7E5D11DB /* PPUtil.h in Headers */,
+				9BB19919FF208B281AAE22FBD0E4D74A /* UIButton+PPAddition.h in Headers */,
+				5EDD1EE3EC00F5D79EC9264E7033DF11 /* UIColor+PPAddition.h in Headers */,
+				28B784C032E3E85613D9C45E5476DE4F /* UIImage+YDDPod.h in Headers */,
+				154D89D53F2EDBA62ACED3CD12893939 /* UIScreen+PPAddition.h in Headers */,
+				6CCE0AA6930C776AD52060E4F2184B97 /* UIScrollView+PPAddition.h in Headers */,
+				D2393D4670FC284793C5EDF832C38B6A /* YDDPPStickerKeyboard-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DD55DA8B462EA652C6E59FF36477F14 /* Pods-YDDPPStickerKeyboard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96E168A38500B2138DB48389B87BB7C3 /* Build configuration list for PBXNativeTarget "Pods-YDDPPStickerKeyboard_Example" */;
+			buildPhases = (
+				A69ED8547B9C2C9272BD206F11DF158C /* Headers */,
+				A7CE0300AA8A30E74A705544539E4819 /* Sources */,
+				441167053C45CD23D36D7FACE64749EE /* Frameworks */,
+				D6C1ACAFCBF4250ECC85752648081DDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				953E2218F9C2F5F4EA38F90412F156C7 /* PBXTargetDependency */,
+			);
+			name = "Pods-YDDPPStickerKeyboard_Example";
+			productName = "Pods-YDDPPStickerKeyboard_Example";
+			productReference = B15B3DEF51239DAB28BCF59B699B9B3E /* Pods_YDDPPStickerKeyboard_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2AFD6241ED23BA8F3C938176F75BB341 /* Pods-YDDPPStickerKeyboard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746C4AA75BF6E8F90CC7BC0B929F91C3 /* Build configuration list for PBXNativeTarget "Pods-YDDPPStickerKeyboard_Tests" */;
+			buildPhases = (
+				23322A96F1553C50EE2D2FFA2C6AB625 /* Headers */,
+				843B174BFBC3CAE90AD13AF3F92F738C /* Sources */,
+				072DF2A1278285467929658D1BEEC854 /* Frameworks */,
+				321FEA1EF2D70330E499951AEA5C3CB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CC612521F2A3FA3D11612C099AE794F /* PBXTargetDependency */,
+			);
+			name = "Pods-YDDPPStickerKeyboard_Tests";
+			productName = "Pods-YDDPPStickerKeyboard_Tests";
+			productReference = A4881CCFD1CB24BDA83B73785531C687 /* Pods_YDDPPStickerKeyboard_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		314852C6B0E2453E39C0E4B8203C7DAC /* YDDPPStickerKeyboard-YDDPPStickerKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6653EDFEDF9F173167701AD1BD82945E /* Build configuration list for PBXNativeTarget "YDDPPStickerKeyboard-YDDPPStickerKeyboard" */;
+			buildPhases = (
+				10341F8BD900C8637E46E4A3D1DE24EA /* Sources */,
+				62AD352C6312907651D2324722874079 /* Frameworks */,
+				F55D3384F391B63E9755A1CE1CB00484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YDDPPStickerKeyboard-YDDPPStickerKeyboard";
+			productName = "YDDPPStickerKeyboard-YDDPPStickerKeyboard";
+			productReference = B32771AA538094CFAEC404DF0FB41495 /* YDDPPStickerKeyboard.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7A9066E790FCD2AFA3B6657BC7AB6866 /* YDDPPStickerKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14ADFCA155D0F93D59555BE1FB91A10 /* Build configuration list for PBXNativeTarget "YDDPPStickerKeyboard" */;
+			buildPhases = (
+				A8D0F0D4A5B071F1816E1ECFE83C77BC /* Headers */,
+				95A34F4F3A243C86F9DE5CA396F09E36 /* Sources */,
+				8C57732CB8118F8C8F8575A6E2BDFEE3 /* Frameworks */,
+				DDEFA13234EC694C6A51603119C80F45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37DD0A7E730F4E97F5C16E6076A8360D /* PBXTargetDependency */,
+			);
+			name = YDDPPStickerKeyboard;
+			productName = YDDPPStickerKeyboard;
+			productReference = 50906B91418FFFF25CD1F37DE3F01453 /* YDDPPStickerKeyboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B459F61A8541461E32617590BE64AA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD55DA8B462EA652C6E59FF36477F14 /* Pods-YDDPPStickerKeyboard_Example */,
+				2AFD6241ED23BA8F3C938176F75BB341 /* Pods-YDDPPStickerKeyboard_Tests */,
+				7A9066E790FCD2AFA3B6657BC7AB6866 /* YDDPPStickerKeyboard */,
+				314852C6B0E2453E39C0E4B8203C7DAC /* YDDPPStickerKeyboard-YDDPPStickerKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		321FEA1EF2D70330E499951AEA5C3CB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C1ACAFCBF4250ECC85752648081DDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEFA13234EC694C6A51603119C80F45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FE6F2E08B9AC1CA312D03EFE05B911 /* YDDPPStickerKeyboard.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55D3384F391B63E9755A1CE1CB00484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3002CAE699DB87C1B72A911F0E19EA43 /* delete-emoji.png in Resources */,
+				C338B3905F7A89C0BB0319BDF5B4D601 /* delete-emoji@2x.png in Resources */,
+				16EBA2608DE416D6B99AF10EB8C1D373 /* delete-emoji@3x.png in Resources */,
+				AE3F641076E3A30E5555FEECA94A4BC9 /* emoji-preview-bg.png in Resources */,
+				7C0F15155724252779E722F6DEFF0514 /* emoji-preview-bg@2x.png in Resources */,
+				57FB81ECB4C2E61284648DBFB482DE22 /* emoji-preview-bg@3x.png in Resources */,
+				5EC5D4D5B31EC1799A55399DD5336C02 /* InnerStickersInfo.plist in Resources */,
+				49742DA9409DEFF9F993F2A68B4488DF /* Sticker.bundle in Resources */,
+				9902B9525BC88DD8A50AA0E4A879FD54 /* toggle_emoji.png in Resources */,
+				0CA6509A502E9297D389E1C39217CC12 /* toggle_emoji@2x.png in Resources */,
+				E620227255A9C249511F85477271D390 /* toggle_emoji@3x.png in Resources */,
+				B7AE57B6D2ADD9FEC2A86E2AAA241D4B /* toggle_keyboard.png in Resources */,
+				1C01472390038FC55A79814BEFED0A74 /* toggle_keyboard@2x.png in Resources */,
+				BA6F1A032FA6ADDB9AFDF0F0D14B7A47 /* toggle_keyboard@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10341F8BD900C8637E46E4A3D1DE24EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843B174BFBC3CAE90AD13AF3F92F738C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DB76942F8BDB803D07A376E0B0336F /* Pods-YDDPPStickerKeyboard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A34F4F3A243C86F9DE5CA396F09E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE45B319881B798F034A4146CB7F8298 /* NSAttributedString+PPAddition.m in Sources */,
+				331B3F87984E0708A69D2E4C14E4C52F /* NSBundle+YDD.m in Sources */,
+				8A219AEDD54D434027B35B06C7D58D2A /* NSString+PPAddition.m in Sources */,
+				C822B46287049EEBEEEFD38B7BAD0F85 /* PPEmoji.m in Sources */,
+				2018E5DEB62D12F562BCEEF9F6C4604E /* PPEmojiPreviewView.m in Sources */,
+				ECC8F94BE3C8715287D911F46C4A11CC /* PPQueuingScrollView.m in Sources */,
+				97A2A1671415719292816665681DC97A /* PPSlideLineButton.m in Sources */,
+				6F2C2D1D2E987030E28BD132415D4C1B /* PPSticker.m in Sources */,
+				E68C2DC74DE4321A8088EBD4B35ABF9F /* PPStickerDataManager.m in Sources */,
+				E3E5FD521207659AB122AA17761FF3FF /* PPStickerInputView.m in Sources */,
+				0F44561D9E29F4743FC4BCABF40B53B9 /* PPStickerKeyboard.m in Sources */,
+				AFCBD41CA2296F5B47BF3F81AD7D35D2 /* PPStickerPageView.m in Sources */,
+				8EA1C59C2A2EA6DF24A89BBF1D031CA9 /* PPStickerTextView.m in Sources */,
+				FE03358D453E20EF87112177EE809D59 /* PPTextBackedString.m in Sources */,
+				7942F3A0AC2BE371058A40477D34ED74 /* UIButton+PPAddition.m in Sources */,
+				219BA34CADD8B0F67437EEBF6AB0AFB7 /* UIColor+PPAddition.m in Sources */,
+				6E800B705B31ABE1583B7F24F035FDE4 /* UIImage+YDDPod.m in Sources */,
+				95A70FC963166A5E516EDD9947C9D3DE /* UIScreen+PPAddition.m in Sources */,
+				585A532827063F0EC02AC27845EEE1A7 /* UIScrollView+PPAddition.m in Sources */,
+				A49AE30CB9A8315881715314292EF6AB /* YDDPPStickerKeyboard-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7CE0300AA8A30E74A705544539E4819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C61ECD84D3FD75D9BC6BC3E4B00A92A /* Pods-YDDPPStickerKeyboard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37DD0A7E730F4E97F5C16E6076A8360D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YDDPPStickerKeyboard-YDDPPStickerKeyboard";
+			target = 314852C6B0E2453E39C0E4B8203C7DAC /* YDDPPStickerKeyboard-YDDPPStickerKeyboard */;
+			targetProxy = D434ADED0A8D081E93A105E81ED7B05A /* PBXContainerItemProxy */;
+		};
+		6CC612521F2A3FA3D11612C099AE794F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YDDPPStickerKeyboard_Example";
+			target = 0DD55DA8B462EA652C6E59FF36477F14 /* Pods-YDDPPStickerKeyboard_Example */;
+			targetProxy = F191763F9AF32D056AE92808A76218C8 /* PBXContainerItemProxy */;
+		};
+		953E2218F9C2F5F4EA38F90412F156C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YDDPPStickerKeyboard;
+			target = 7A9066E790FCD2AFA3B6657BC7AB6866 /* YDDPPStickerKeyboard */;
+			targetProxy = 207D00B4034B857289882F70D9E19194 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34B0F49ABC8241EAFD38749C08538003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F62446BA8FFA2902C99565D9297ED7A /* YDDPPStickerKeyboard.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YDDPPStickerKeyboard";
+				IBSC_MODULE = YDDPPStickerKeyboard;
+				INFOPLIST_FILE = "Target Support Files/YDDPPStickerKeyboard/ResourceBundle-YDDPPStickerKeyboard-YDDPPStickerKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = YDDPPStickerKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		34E53ECD57B8A450680FDF5ABA7F7BFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F62446BA8FFA2902C99565D9297ED7A /* YDDPPStickerKeyboard.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YDDPPStickerKeyboard/YDDPPStickerKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YDDPPStickerKeyboard/YDDPPStickerKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YDDPPStickerKeyboard/YDDPPStickerKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = YDDPPStickerKeyboard;
+				PRODUCT_NAME = YDDPPStickerKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E1E8FD960B2DFA805E80F6867210913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5494ABBCABBCE51E24A767BBA829A84 /* Pods-YDDPPStickerKeyboard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YDDPPStickerKeyboard_Example/Pods-YDDPPStickerKeyboard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YDDPPStickerKeyboard_Example/Pods-YDDPPStickerKeyboard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72AC37C446F694CC541A406BE2FA1E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B22F13D8F89F86D8DEF63C54D95045A5 /* Pods-YDDPPStickerKeyboard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YDDPPStickerKeyboard_Tests/Pods-YDDPPStickerKeyboard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YDDPPStickerKeyboard_Tests/Pods-YDDPPStickerKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8B40336DFDBA780904CB96F4EBD4F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97095FB74947144F1FDF82C9FA33D8FA /* Pods-YDDPPStickerKeyboard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YDDPPStickerKeyboard_Tests/Pods-YDDPPStickerKeyboard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YDDPPStickerKeyboard_Tests/Pods-YDDPPStickerKeyboard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B37ACB3AA8D896A7254ABA82226C21D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B246B98E9F126A58D303C0936C9A111 /* YDDPPStickerKeyboard.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YDDPPStickerKeyboard/YDDPPStickerKeyboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YDDPPStickerKeyboard/YDDPPStickerKeyboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YDDPPStickerKeyboard/YDDPPStickerKeyboard.modulemap";
+				PRODUCT_MODULE_NAME = YDDPPStickerKeyboard;
+				PRODUCT_NAME = YDDPPStickerKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E04AF18F3F2C224A0173A40D6CF99A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B246B98E9F126A58D303C0936C9A111 /* YDDPPStickerKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/YDDPPStickerKeyboard";
+				IBSC_MODULE = YDDPPStickerKeyboard;
+				INFOPLIST_FILE = "Target Support Files/YDDPPStickerKeyboard/ResourceBundle-YDDPPStickerKeyboard-YDDPPStickerKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = YDDPPStickerKeyboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F76F03B797064751CEABC4D082C25F81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F230BF6C1220F81F1AD614A9A09BFC3F /* Pods-YDDPPStickerKeyboard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YDDPPStickerKeyboard_Example/Pods-YDDPPStickerKeyboard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YDDPPStickerKeyboard_Example/Pods-YDDPPStickerKeyboard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6653EDFEDF9F173167701AD1BD82945E /* Build configuration list for PBXNativeTarget "YDDPPStickerKeyboard-YDDPPStickerKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E04AF18F3F2C224A0173A40D6CF99A78 /* Debug */,
+				34B0F49ABC8241EAFD38749C08538003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		746C4AA75BF6E8F90CC7BC0B929F91C3 /* Build configuration list for PBXNativeTarget "Pods-YDDPPStickerKeyboard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AC37C446F694CC541A406BE2FA1E00 /* Debug */,
+				A8B40336DFDBA780904CB96F4EBD4F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96E168A38500B2138DB48389B87BB7C3 /* Build configuration list for PBXNativeTarget "Pods-YDDPPStickerKeyboard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76F03B797064751CEABC4D082C25F81 /* Debug */,
+				3E1E8FD960B2DFA805E80F6867210913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14ADFCA155D0F93D59555BE1FB91A10 /* Build configuration list for PBXNativeTarget "YDDPPStickerKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37ACB3AA8D896A7254ABA82226C21D6 /* Debug */,
+				34E53ECD57B8A450680FDF5ABA7F7BFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

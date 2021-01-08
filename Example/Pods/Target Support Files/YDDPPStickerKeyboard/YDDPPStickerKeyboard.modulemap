@@ -1,0 +1,6 @@
+framework module YDDPPStickerKeyboard {
+  umbrella header "YDDPPStickerKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}
