@@ -49,4 +49,20 @@
 }
 
 
+/// 获取framework组件bundle
+/// @param pod 组件名
+/// @param bundleName 组件bundle名（不带扩展名）
++ (NSBundle *)ydd_bundleWithPod:(NSString *)pod bundleName:(NSString *)bundleName {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Frameworks" ofType:nil];
+    if (!path) {
+        return nil;
+    }
+    NSString *bundlePath = [NSString stringWithFormat:@"%@/%@.framework/%@.bundle", path, pod, bundleName];
+    return [NSBundle bundleWithPath:bundlePath];
+}
+
+
+
+
+
 @end

@@ -22,6 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSBundle *)ydd_bundleWithBundleName:(NSString *)bundleName podName:(NSString *)podName;
 
 
++ (NSBundle *)ydd_bundleWithPod:(NSString *)pod bundleName:(NSString *)bundleName;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

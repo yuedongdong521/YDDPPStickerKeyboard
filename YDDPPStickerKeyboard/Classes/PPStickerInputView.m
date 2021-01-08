@@ -11,6 +11,7 @@
 #import "PPStickerTextView.h"
 #import "PPUtil.h"
 #import "UIImage+YDDPod.h"
+#import "NSBundle+YDD.h"
 
 static CGFloat const PPStickerTextViewHeight = 44.0;
 
@@ -199,7 +200,10 @@ static CGFloat const PPStickerTextViewToggleButtonLength = 24.0;
 {
     if (!_emojiToggleButton) {
         _emojiToggleButton = [[PPButton alloc] init];
-        UIImage *image = [UIImage ydd_imageWithName:@"toggle_emoji"];
+        NSBundle *bundle = [NSBundle ydd_bundleWithPod:@"YDDPPStickerKeyboard" bundleName:@"YDDPPStickerKeyboard"];
+        NSString *imagePath = [bundle pathForResource:@"toggle_emoji" ofType:@"png"];
+        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+//        UIImage *image = [UIImage ydd_imageWithName:@"toggle_emoji"];
         [_emojiToggleButton setImage:image forState:UIControlStateNormal];
         _emojiToggleButton.touchInsets = UIEdgeInsetsMake(-12, -20, -12, -20);
         [_emojiToggleButton addTarget:self action:@selector(toggleKeyboardDidClick:) forControlEvents:UIControlEventTouchUpInside];
